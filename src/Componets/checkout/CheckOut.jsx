@@ -170,13 +170,13 @@ const mostrarTicket=()=>{
         
    
         {error && <p className="alert alert-danger"> {error} </p>}
-        <Button style={{Maxwidth:'60%', margin:'0 auto'}} className="btn btn-link"  data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit"> Finalizar Compra </Button>
+        <Button disabled={total === 0} style={{Maxwidth:'60%', margin:'0 auto'}} className="btn btn-link"  data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit"> Finalizar Compra </Button>
         </div>
       </form>
-      {orderId && values (
+      {orderId &&  (
       
          mostrarTicket()
-      )}
+      ) }
     </Container>
   );
 };
