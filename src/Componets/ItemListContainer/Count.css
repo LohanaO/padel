@@ -1,0 +1,22 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 20px;
+    background-color: #5DDFC3;
+}
+
+.card Button{
+    background-color: white;
+    color: darkblue;
+}
+
+.card Button:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+
+

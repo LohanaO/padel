@@ -1,0 +1,39 @@
+.btn{
+     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+
+.btn-link{
+   background-color: #262160;
+   overflow: hidden;
+ 
+   padding: 15px;
+   display: inline-block;
+   color: white;
+   font-size: 16px;
+   border-radius: 10px;
+   transition:  1s ease;
+  
+   
+ 
+}
+
+
+.btn-link:hover{
+  background: linear-gradient(to right, #007bff, #00bfff);
+  color: #fff;
+  transform: translateY(5px);
+  box-shadow: 5px -5px 10px 0 rgba(16, 226, 253, 0.5);
+
+   
+}
+
+.img:hover{
+  transform: translateY(10px);
+}
+

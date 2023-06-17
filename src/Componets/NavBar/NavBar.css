@@ -1,0 +1,57 @@
+.header{
+   
+    background-color: #5DDFC3;
+    padding: 1rem;
+    width: 100%;
+    
+}
+.image{
+    max-width: 15vw;
+   
+}
+
+.image:hover{
+    transform: scale(1.2);
+}
+
+
+.h2{
+    color: #fff;
+    
+}
+
+.li{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-left: 2rem;
+    text-transform: uppercase;
+    
+}
+
+.NavLink{
+    transition: all 0.5s ease;
+     text-decoration: none;
+    color: black;
+}
+
+.NavLink:hover{
+    color: #fff;
+}
+
+.hamb{
+    color: white;
+}
+
+@media (max-width :778px ) {
+    .h2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .image{
+    max-width: 25vw;
+}
+}

@@ -1,0 +1,23 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+ background-color:azure;
+ height:calc(100vh - 89px - 88px);
+ 
+}
+
+
+
+li{
+  list-style: none;
+}
+
+.ruta{
+  height:calc(100vh - 89px - 88px);
+}
